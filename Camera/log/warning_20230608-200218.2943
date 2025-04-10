@@ -1,0 +1,4 @@
+Log file created at: 2023/06/08 20:02:18
+Running on machine: helloworld
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0608 20:02:18.614048  4604 MVCameraBase.cpp:99] Device:(name:MV-SUA630C#0 sn:042030120299)Lost

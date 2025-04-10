@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1020</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Radarstation_2023</string>
+  </property>
+  <widget class="QLabel" name="main_demo">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>1030</width>
+     <height>688</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>772</width>
+     <height>516</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1030</width>
+     <height>688</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>main_demo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="message_box">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>710</y>
+     <width>640</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>640</width>
+     <height>280</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>480</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>message_box</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="base_img">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>710</y>
+     <width>700</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>700</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>base_img</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Tips">
+   <property name="geometry">
+    <rect>
+     <x>1370</x>
+     <y>880</y>
+     <width>160</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>160</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aerial&lt;/p&gt;&lt;p&gt;R record ; D stop&lt;/p&gt;&lt;p&gt;C change view&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feedback">
+   <property name="geometry">
+    <rect>
+     <x>1547</x>
+     <y>880</y>
+     <width>351</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>360</width>
+     <height>160</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>feedback</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>12</y>
+     <width>310</width>
+     <height>673</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="map">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>308</width>
+        <height>575</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>308</width>
+        <height>575</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>map</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn1">
+      <property name="minimumSize">
+       <size>
+        <width>240</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>308</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>btn1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn2">
+      <property name="minimumSize">
+       <size>
+        <width>240</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>308</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>btn2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn3">
+      <property name="text">
+       <string>btn3</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>1370</x>
+     <y>10</y>
+     <width>532</width>
+     <height>856</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="second_cam">
+      <property name="minimumSize">
+       <size>
+        <width>530</width>
+        <height>424</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>530</width>
+        <height>424</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>second_cam</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="third_cam">
+      <property name="minimumSize">
+       <size>
+        <width>530</width>
+        <height>424</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>530</width>
+        <height>424</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>third_cam</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn1_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn2_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn3_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>668</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>509</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn1_clicked()</slot>
+  <slot>btn2_clicked()</slot>
+  <slot>btn3_clicked()</slot>
+ </slots>
+</ui>

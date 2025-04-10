@@ -1,0 +1,28 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train: /home/helloworld/zhx/yolov8/ultralytics-main/ultralytics/mydata/radar2024/train
+val: /home/helloworld/zhx/yolov8/ultralytics-main/ultralytics/mydata/radar2024/val  
+test: test
+
+# Classes
+names:
+  0: 'car'
+  1: 'RS'   # 哨兵装甲板
+  2: 'R1'
+  3: 'R2'
+  4: 'R3'
+  5: 'R4'
+  6: 'R5'
+  7: 'BS'
+  8: 'B1'
+  9: 'B2'
+  10: 'B3'
+  11: 'B4'
+  12: 'B5'
+  13: 'GS'    # 灯条熄灭
+  14: 'G1'
+  15: 'G2'
+  16: 'G3'
+  17: 'G4'
+  18: 'G5'
+  19: 'ignore'   # 未知类别，这在ROCO数据集里是有出现过的
